@@ -15,7 +15,7 @@ const TextStyle ourStyle = TextStyle(
 
 // MyBox is our custem container widget
 // takes constractors
-// (h for height) (w for width)
+// (h for height) (w for width )
 // (c1 for the boox color)
 // (isCircle is by defult false )
 // (onClick is obtinal for clicking action)
@@ -54,7 +54,10 @@ Widget myBox({
   );
 }
 
-Widget custemTF({required IconData icn, final saved}) {
+// custem text field "TF" for text field
+// takes icn for icon and onSave as a function
+
+Widget custemTF({required IconData icn, final onSave}) {
   return Padding(
     padding: const EdgeInsets.all(15),
     child: TextFormField(
@@ -63,7 +66,7 @@ Widget custemTF({required IconData icn, final saved}) {
           return 'ادخل المطلوب هنا';
         }
       },
-      onSaved: saved,
+      onSaved: onSave,
       decoration: InputDecoration(
           icon: Icon(
             icn,
