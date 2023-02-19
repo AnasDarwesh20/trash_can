@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.trash_can">
    <application
-        android:label="trash_can"
+        android:label="Trash Can"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

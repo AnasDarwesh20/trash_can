@@ -84,3 +84,22 @@ Widget custemTF({required IconData icn, final onSave}) {
     ),
   );
 }
+//////////     Appbar  ya anas
+
+Widget custemBar() {
+  return AppBar(
+    backgroundColor: Colors.transparent,
+    toolbarHeight: 80,
+    elevation: 0.0,
+    flexibleSpace: Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Container(
+        height: 110,
+        child: Text('data'),
+        decoration: BoxDecoration(
+            color: mainColor,
+            borderRadius: BorderRadius.all(Radius.circular(30))),
+      ),
+    ),
+  );
+}
