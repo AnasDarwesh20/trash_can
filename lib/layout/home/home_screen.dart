@@ -14,6 +14,12 @@ class HomeScreen extends StatelessWidget {
               isUpper: false ,
             ),
 
+            SizedBox(
+              height: 10.0,
+            ) ,
+
+
+
           ],
         ),
       ),
